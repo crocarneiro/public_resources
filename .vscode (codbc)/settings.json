@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
+    "editor.renderFinalNewline": true,
+    "workbench.colorTheme": "Slack Theme Choco Mint"
+}
