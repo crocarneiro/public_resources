@@ -1,7 +1,7 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
-	"name": "codbc",
-	"image": "crocarneiro1998/java11-maven-env",
+	"name": "libstring-utils",
+	"image": "crocarneiro1998/cross-compilation-env",
 	"runArgs": [
 		// Uncomment the next linesif you will use a ptrace-based debugger like C++, Go, and Rust.
 		 "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"
@@ -14,13 +14,8 @@
 	// "postCreateCommand": "docker --version",
 
 	"extensions": [
-		"vscjava.vscode-java-debug",
-		"vscjava.vscode-java-dependency",
-		"vscjava.vscode-java-pack",
-		"vscjava.vscode-java-test",
-		"redhat.java",
-		"vscjava.vscode-maven",
-		"visualstudioexptteam.vscodeintellicode",
+		"maelvalais.autoconf",
+		"ms-vscode.cpptools",
 		"wakatime.vscode-wakatime"
 	],
 	"settings": {
